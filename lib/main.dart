@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nav_router/nav_router.dart';
-import 'package:v_flutter_practice_2020/ui/mqtt/PageMqtt.dart';
+import 'file:///D:/workspace/flutter_workspace/fv_flutter_practice_2020/v_flutter_practice_2020/lib/module/mqtt/PageMqtt.dart';
+import 'module/bloc/log_in_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -96,10 +97,16 @@ class _MyHomePageState extends State<MyHomePage> {
                   textColor: Colors.red,
                   borderSide: BorderSide(color: Colors.red,),
                 ),
+                OutlineButton(
+                  child: Text('Bloc'),
+                  onPressed: (){
+                    routePush(PageLogIn());
+                  },
+                  textColor: Colors.red,
+                  borderSide: BorderSide(color: Colors.red,),
+                ),
               ],
             ),
-
-
           ],
         ),
       ),

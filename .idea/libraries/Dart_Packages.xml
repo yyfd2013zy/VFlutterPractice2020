@@ -23,6 +23,13 @@
             </list>
           </value>
         </entry>
+        <entry key="bloc">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-6.1.1/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="boolean_selector">
           <value>
             <list>
@@ -65,6 +72,13 @@
             </list>
           </value>
         </entry>
+        <entry key="equatable">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/equatable-1.2.5/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="event_bus">
           <value>
             <list>
@@ -76,6 +90,13 @@
           <value>
             <list>
               <option value="$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/packages/flutter/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="flutter_bloc">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-6.1.1/lib" />
             </list>
           </value>
         </entry>
@@ -128,6 +149,13 @@
             </list>
           </value>
         </entry>
+        <entry key="nested">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/nested-0.0.4/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="path">
           <value>
             <list>
@@ -139,6 +167,13 @@
           <value>
             <list>
               <option value="$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-2.4.0/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="provider">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.3.2+2/lib" />
             </list>
           </value>
         </entry>
@@ -225,21 +260,26 @@
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/archive-2.0.13/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/args-1.6.0/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.4.1/lib" />
+      <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-6.1.1/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.0.0/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.3/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.12/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.4/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.3/lib" />
+      <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/equatable-1.2.5/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/event_bus-1.1.1/lib" />
+      <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-6.1.1/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-3.1.3/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/image-2.1.12/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.6/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.1.8/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/mqtt_client-5.6.3/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/nav_router-0.0.7/lib" />
+      <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/nested-0.0.4/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.6.4/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-2.4.0/lib" />
+      <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/provider-4.3.2+2/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-2.1.3/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.7.0/lib" />
       <root url="file://$PROJECT_DIR$/../../../../Flutter/flutter_windows_v1.9.1+hotfix.6-stable/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.9.3/lib" />
