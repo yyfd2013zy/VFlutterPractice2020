@@ -1,10 +1,10 @@
-/*
 import 'dart:async';
 
+import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:mqtt_client/mqtt_client.dart';
 
 import '../../../Contacts.dart';
-
 
 typedef ConnectedCallback = void Function();
 
@@ -12,6 +12,7 @@ class MqttTool {
   MqttQos qos = MqttQos.atLeastOnce;
   MqttClient mqttClient;
   static MqttTool _instance;
+
   static MqttTool getInstance() {
     if (_instance == null) {
       _instance = MqttTool();
@@ -43,37 +44,40 @@ class MqttTool {
   }
 
   disconnect() {
+    showLogInfo("断开连接");
     mqttClient.disconnect();
-    _log("_disconnect");
   }
 
-  int publishMessage(String pTopic, String msg) {
-
+  /**
+   * 发送
    */
-/* _log("_发送数据-topic:$pTopic,playLoad:$msg");
+  int publishMessage(String pTopic, String msg) {
+   /* _log("_发送数据-topic:$pTopic,playLoad:$msg");
     Uint8Buffer uint8buffer = Uint8Buffer();
     var codeUnits = msg.codeUnits;
     uint8buffer.addAll(codeUnits);
 
-    return mqttClient.publishMessage(pTopic, qos, uint8buffer, retain: false);*//*
-
+    return mqttClient.publishMessage(pTopic, qos, uint8buffer, retain: false);*/
   }
 
+  /**
+   * 发送
+   */
   int publishRawMessage(String pTopic, List<int> list) {
-  */
 /*  _log("_发送数据-topic:$pTopic,playLoad:$list");
     Uint8Buffer uint8buffer = Uint8Buffer();
 //    var codeUnits = msg.codeUnits;
     uint8buffer.addAll(list);
-    return mqttClient.publishMessage(pTopic, qos, uint8buffer, retain: false);*//*
-
+    return mqttClient.publishMessage(pTopic, qos, uint8buffer, retain: false);*/
   }
 
   Subscription subscribeMessage(String subtopic) {
+    showLogInfo("订阅消息！");
     return mqttClient.subscribe(subtopic, qos);
   }
 
   unsubscribeMessage(String unSubtopic) {
+    showLogInfo("取消订阅！");
     mqttClient.unsubscribe(unSubtopic);
   }
 
@@ -82,36 +86,43 @@ class MqttTool {
   }
 
   Stream<List<MqttReceivedMessage<MqttMessage>>> updates() {
-    _log("_监听成功!");
+    print("${Contacts.PAGE_TAG_MQTT} updates messages 开始监听消息");
     return mqttClient.updates;
   }
 
   onConnected() {
 //    mqttClient.onConnected = callback;
-    _log("_onConnected");
+    showLogInfo("连接成功");
   }
 
   onDisConnected(ConnectedCallback callback) {
     mqttClient.onDisconnected = callback;
-  }
-
-  _onDisconnected() {
-    _log("_onDisconnected");
+    print("${Contacts.PAGE_TAG_MQTT}断开连接");
   }
 
   _onSubscribed(String topic) {
-    _log("_订阅主题成功---topic:$topic");
+    showLogInfo("主题订阅成功！");
   }
 
   _onUnSubscribed(String topic) {
-    _log("_取消订阅主题成功---topic:$topic");
+    showLogInfo("取消订阅成功！");
   }
 
   _onSubscribeFail(String topic) {
-    _log("_onSubscribeFail");
+    showLogInfo("订阅失败！");
   }
 
-  _log(String msg) {
-    print("MQTT-->$msg");
+
+  void showLogInfo(String s) {
+    print("${Contacts.PAGE_TAG_MQTT} ${s}");
+    Fluttertoast.showToast(
+        msg: s,
+        toastLength: Toast.LENGTH_LONG,
+        gravity: ToastGravity.BOTTOM,
+        timeInSecForIos: 1,
+        backgroundColor: Colors.red,
+        textColor: Colors.white,
+        fontSize: 16.0
+    );
   }
-}*/
+}
